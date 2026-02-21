@@ -21,9 +21,9 @@ with open(DATA_PATH) as f:
     data = json.load(f)
 
 
-@app.options("/api/latency")
-async def options_handler():
-    return {}
+# @app.options("/api/latency")
+# async def options_handler():
+#     return {}
 
 
 @app.post("/api/latency")
